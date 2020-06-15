@@ -1,0 +1,44 @@
+
+
+-------------- Marks ---------------
+
+    Q.5 (out of 20):   20
+    Q.6 (out of 40):   34
+    Q.7 (out of 20):   19
+
+ - - - - - - - - - - - - - - - - - -
+
+  Total (out of 80):   73
+
+------------------------------------
+
+
+
+
+The coursework was very well made overall. Here, I will set out some general feedback.
+
+* How it was marked *
+
+The principle I used was "marks gained for cases correct", as opposed to "marks deducted for cases failed". We prefer a positive approach.
+
+For every function, I tested whether your function was correct for: 
+  a) the given examples in the document, 
+  b) basic cases,
+  c) larger examples.
+The basic cases (think of terms that are single variables, or empty lists, etc.) would test the basic structure of your function, and catch any edge cases. The large examples would test recursion.
+
+If a test failed due to an error in a previous function, I have in most cases allocated part or all of the marks for that test. I have generally returned fewer marks for failed tests of kind a), of the given examples, since you could have caught the mistake yourself.
+
+I have logged all test outcomes in the automated marker, with the marks assigned to each. Subsequent tests with the same outcome (and presumably the same mistake) will have received the same marks.
+
+* How it was made *
+
+As mentioned, the overall marks were very high, and I have seen many solutions of excellent quality. Well done! (Congratulations in particular to those who found the two-word solutions to 5b and 5c!)
+
+There were sufficient marks available for a good mark in the tests of the kinds a) and b), so everyone who tested their functions for basic cases themselves would have been in a good position. If you did not test your function outside the given examples, you may have missed certain edge cases, and indeed I have found errors like this in particular in assignments 5a, 5c, 6c, and 6d.
+
+What most incorrect solutions had in common was to overcomplicate things. My general advice would be the following: if your function does not pass your tests, unless it is obvious what the mistake is, rather than try and tinker with it, comment it out and start fresh. Attempts to adjust a broken function will in many cases lead simply to failure on larger examples, meaning harder-to-catch mistakes.
+
+It was better to keep things simple. Many functions, such as 5a, 5b, 5c, 6a, 6c, 6d, and 7a could be done by straightforward recursion of the kind practiced in the tutorials. For the more challenging assignments, such as 5e, 6e, and 6g, keeping it simple was arguably even more important. For understanding the problem, a good approach would be to come up with your own examples and decide what the output should be.
+
+

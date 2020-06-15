@@ -1,0 +1,23 @@
+Comments:
+
+Quite a nice section on supercombinators with good use of examples. I
+didn't quite grasp why supercombinators are good for compilation,
+other than not having free variables.
+You didn't say what the lambda to SKI transformation was for or how S,
+K and I correspond to lambda terms. Generally I would have liked more
+detail on combinatory logic. 
+Essay and references are well presented
+
+Marks:
+
+Historical background [2/2]
+SKI and lambda-calculus [2/6]
+Lambda-lifting, supercombinators [4/4]
+Use in compilers [2/4]
+References and overall presentation [4/4]
+
+Total [14/20]
+
+
+
+
